@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>სასტუმრო 2</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="course.html"><img src="data:image/png;base64,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" style="width: 20%;" ></a>
+          <div class="nav-links" id="navLinks">
+           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+           <ul>
+               <li><a href="index.html">მთავარი</a></li>
+               <li><a href="about.html">ჩვენს შესახებ</a></li>
+               <li><a href="course.html">ფორუმი</a></li>
+               <li><a href="blog.html">ბლოგი</a></li>
+               <li><a href="contact.html">კონტაქტი</a></li>
+       
+           </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>ჩვენს შესახებ</h1>
+           </section>
+       
+           <!-- ჩვენს შესახებ კონტენტი-->
+       
+           <section class="about-us">
+       <div class="row">
+           <div class="about-col">
+               <h1>მსოფლიო დონის 5 ვარსკვლავიანი სასტუმრო</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis quod amet veritatis 
+                   illo perferendis, harum quia deleniti numquam dolorem, autem eveniet tenetur quae illum, optio fugit 
+                   cum consequuntur unde!</p>
+                   <a href="#" class="hero-btn red-btn">გამოიკვლიე ახლა</a>
+           </div>
+           <div class="about-col">
+               <img src="https://api.tabula.ge/files/styles/news_thumb_lg/public/photos/2016/03/otel.jpeg.jpg?itok=q3MTobi6">
+           </div>
+       
+       </div>
+       
+           </section>
+       
+       
+       
+       
+       
+       
+       <!-- footer -->
+       
+         <section class="footer">
+          <h4>ჩვენს შესახებ</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quisquam voluptas molestias. Ad id,
+            ab, debitis ea impedit, laborum similique eaque hic provident consequatur <br>facere pariatur fugit praesentium 
+            dignissimos deleniti?</p>
+       <div class="icons">
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-twitter"></i>
+           <i class="fa-brands fa-square-instagram"></i> 
+           <i class="fa-brands fa-linkedin"></i>
+       </div>
+       <p>დამზადებულია <i class="fa-solid fa-heart"></i> დამზადებულია 375-ტე ჯგუფის მიერ</p>
+         </section>
+       
+       
+       
+           <!-- JavaScript for Toggle Menu -->
+       
+         <script>
+       
+       var navLinks = document.getElementById("navLinks");
+       
+       function showMenu() {
+           navLinks.style.right = "0";
+       }
+       function hideMenu() {
+           navLinks.style.right = "-200px";
+       }
+       
+         </script>
+</body>
+</html>
